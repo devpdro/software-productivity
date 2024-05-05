@@ -1,7 +1,9 @@
+import { Sidebar } from "../components/Common"
+
 function Home() {
     return (
       <>
-        <h1>Teste</h1>
+        <Sidebar />
       </>
     )
   }
