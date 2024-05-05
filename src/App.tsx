@@ -1,7 +1,9 @@
+import { Home } from "./presentation/pages";
+
 function App() {
   return (
     <>
-      <h1>Teste</h1>
+      <Home />
     </>
   )
 }
