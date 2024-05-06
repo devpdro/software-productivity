@@ -1,11 +1,13 @@
 import { Sidebar } from "../components/Common";
+import { Main } from "../components/BatchDashboard";
 
-function Home() {
+function BatchDashboard() {
   return (
     <main style={{ display: "flex" }}>
       <Sidebar />
+      <Main />
     </main>
   );
 }
 
-export default Home;
+export default BatchDashboard;
