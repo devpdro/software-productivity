@@ -6,7 +6,7 @@ export const Container = styled.nav`
 `;
 
 export const Sidebar = styled.div<{ open: boolean }>`
-  width: ${({ open }) => (open ? "230px" : "72px")};
+  width: ${({ open }) => (open ? "232px" : "72px")};
   background-color: #f9f9f9;
   color: #1c1c1c;
   height: 100vh;
