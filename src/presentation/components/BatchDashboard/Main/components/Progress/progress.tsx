@@ -25,7 +25,7 @@ const Progress: React.FC = () => {
 
   return (
     <S.Container>
-      <h1>Em andamento</h1>
+      <h1>Pendente</h1>
       <S.BoxContainer>
         <S.Icon onClick={handleModalToggle} />
         {isModalOpen && (
