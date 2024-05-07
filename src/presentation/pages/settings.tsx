@@ -1,6 +1,6 @@
 import { Sidebar } from "../components/Common";
 
-function Home() {
+function Settings() {
   return (
     <>
       <Sidebar />
@@ -8,4 +8,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Settings;

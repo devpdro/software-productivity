@@ -1,1 +1,0 @@
-export { default as menus } from './data/menu'

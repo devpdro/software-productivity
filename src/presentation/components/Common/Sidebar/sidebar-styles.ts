@@ -6,12 +6,12 @@ export const Container = styled.nav`
 `;
 
 export const Sidebar = styled.div<{ open: boolean }>`
-  width: ${({ open }) => (open ? "240px" : "72px")};
-  background-color: #F9F9F9;
+  width: ${({ open }) => (open ? "230px" : "72px")};
+  background-color: #f9f9f9;
   color: #1c1c1c;
-  transition: width 0.5s;
   height: 100vh;
   padding: 0 1rem;
+  transition: width 0.5s ease;
 `;
 
 export const MainMenu = styled.div`
@@ -28,23 +28,33 @@ export const ContainerItem = styled.div`
   gap: 0.75rem;
 `;
 
+export const SideLink = styled.div`
+  text-decoration: none;
+  color: inherit;
+  &.active {
+    background-color: #dcebfe;
+    color: #3c91e6;
+  }
+`;
+
 export const MenuItem = styled.li<{ margin?: boolean }>`
   ${({ margin }) => margin && "margin-top: 1.25rem;"}
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   transition: all 0.3s ease;
-  border-radius: 0.375rem;
+  border-radius: 10px;
   font-size: 0.75rem;
-  padding: 0.5rem 0.5rem;
+  padding: 0.375rem 1rem 0.375rem 0.45rem;
   gap: 0.875rem;
   &:hover {
-    background-color: #DCEBFE;
-    color: #3C91E6;
+    background-color: #dcebfe;
+    color: #3c91e6;
   }
 `;
 
 export const MenuLabel = styled.h2<{ open: boolean; index: number }>`
-  transform: ${({ open }) => !open && "translateX(28px)"};
+  transform: ${({ open }) => !open && "translateX(0px)"};
   transition-delay: ${({ index }) => `${index + 3}00ms`};
   opacity: ${({ open }) => (open ? "1" : "0")};
   overflow: hidden;

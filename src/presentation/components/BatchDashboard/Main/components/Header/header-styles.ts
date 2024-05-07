@@ -17,6 +17,7 @@ export const BoxContainer = styled.div`
 export const IconBox = styled.div`
   background-color: #dcebfe;
   color: #3c91e6;
+  cursor: pointer;
   padding: 0.625rem 0.875rem;
   border-radius: 10px;
 `;

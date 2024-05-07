@@ -5,7 +5,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import { Home, BatchDashboard } from "./presentation/pages";
+import { Home, BatchDashboard, Settings } from "./presentation/pages";
 
 export function App() {
   return (
@@ -13,6 +13,7 @@ export function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/painel-de-lotes" element={<BatchDashboard />} />
+        <Route path="/configuracoes" element={<Settings />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>

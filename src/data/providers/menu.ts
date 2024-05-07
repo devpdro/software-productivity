@@ -2,7 +2,7 @@ import { FaChartBar } from "react-icons/fa";
 import { RiSettings4Line } from "react-icons/ri";
 import { AiOutlineUser } from "react-icons/ai";
 
-const menus = [
+const Menu = [
   { name: "Usuarios", link: "/", icon: AiOutlineUser },
   {
     name: "Gerenciador",
@@ -10,7 +10,7 @@ const menus = [
     icon: FaChartBar,
     margin: true,
   },
-  { name: "Configurações", link: "/", icon: RiSettings4Line },
+  { name: "Configurações", link: "/configuracoes", icon: RiSettings4Line },
 ];
 
-export default menus;
+export default Menu;

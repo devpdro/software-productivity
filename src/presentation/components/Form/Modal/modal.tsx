@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Modal from "react-modal";
 
-import { Form } from "../../Form";
+import { Form } from "..";
 
-import * as S from "./custom-modal-style";
+import * as S from "./modal-styles";
 
 const CustomModal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

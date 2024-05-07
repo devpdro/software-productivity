@@ -1,4 +1,4 @@
-import { CustomModal } from '../../../../Modal'
+import { CustomModal } from "../../../../Form";
 
 import * as S from "./header-styles";
 
@@ -8,7 +8,7 @@ const Header = () => {
       <h1>Dashboard</h1>
       <S.BoxContainer>
         <S.IconBox>
-          <CustomModal/>
+          <CustomModal />
         </S.IconBox>
         <S.TextBox>
           <h2>234</h2>

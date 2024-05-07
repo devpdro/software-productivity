@@ -3,7 +3,7 @@ import { Main } from "../components/BatchDashboard";
 
 function BatchDashboard() {
   return (
-    <main style={{ display: "flex" }}>
+    <main style={{ display: "flex",}}>
       <Sidebar />
       <Main />
     </main>
