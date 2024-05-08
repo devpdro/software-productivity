@@ -1,11 +1,10 @@
-import { Sidebar } from "../components/Common";
-import { Main } from "../components/BatchDashboard";
+import { Sidebar, Wrapper } from "../components/Common";
 
 function BatchDashboard() {
   return (
-    <main style={{ display: "flex",}}>
+    <main style={{ display: "flex" }}>
       <Sidebar />
-      <Main />
+      <Wrapper />
     </main>
   );
 }

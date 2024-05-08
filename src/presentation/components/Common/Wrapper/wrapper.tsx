@@ -1,9 +1,14 @@
+import { Header, Progress } from ".././../BatchDashboard/Main/components";
+
+import * as S from "./wrapper-styles";
+
 const Wrapper = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <S.Container>
+      <Header />
+      <Progress />
+    </S.Container>
+  );
+};
 
-export default Wrapper
+export default Wrapper;

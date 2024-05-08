@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Modal from "react-modal";
 
-import { Form } from "..";
+import { InputText, InputTime } from "../Input";
 
 import * as S from "./modal-styles";
 
@@ -16,6 +16,7 @@ const CustomModal = () => {
     <S.Container>
       <svg
         onClick={handleModalToggle}
+        style={{ marginTop: "0.25rem" }}
         xmlns="http://www.w3.org/2000/svg"
         width={44}
         height={44}
@@ -31,7 +32,7 @@ const CustomModal = () => {
           contentLabel="Modal Grande"
           style={{
             content: {
-              width: "500px",
+              width: "400px",
               margin: "auto",
             },
             overlay: {
@@ -39,7 +40,11 @@ const CustomModal = () => {
             },
           }}
         >
-          <Form />
+          <S.Title>Adicionar lote</S.Title>
+          <S.BoxForm>
+            <InputText name="Nome do lote" id="name"/>
+            <InputTime showExpectedTime/>
+          </S.BoxForm>
         </Modal>
       )}
     </S.Container>

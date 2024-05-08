@@ -21,7 +21,7 @@ export const BoxContainer = styled.div`
 `;
 
 export const Icon = styled(FaPlus)`
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   margin: 20px;
 `;

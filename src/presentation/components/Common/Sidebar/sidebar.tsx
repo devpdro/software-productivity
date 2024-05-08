@@ -11,7 +11,7 @@ import * as S from "./sidebar-styles";
 const Sidebar = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   useEffect(() => {

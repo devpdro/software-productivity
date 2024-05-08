@@ -7,8 +7,8 @@ export const Container = styled.nav`
 
 export const Sidebar = styled.div<{ open: boolean }>`
   width: ${({ open }) => (open ? "232px" : "72px")};
-  background-color: #f9f9f9;
-  color: #1c1c1c;
+  background-color: #18181B;
+  color: #f9f9f9;
   height: 100vh;
   padding: 0 1rem;
   transition: width 0.5s ease;
@@ -49,7 +49,7 @@ export const MenuItem = styled.li<{ margin?: boolean }>`
   gap: 0.875rem;
   &:hover {
     background-color: #dcebfe;
-    color: #3c91e6;
+    color: #3C91E6;
   }
 `;
 
