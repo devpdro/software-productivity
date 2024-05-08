@@ -2,6 +2,7 @@ import { useState } from "react";
 import Modal from "react-modal";
 
 import { InputText, InputTime } from "../Input";
+import { Select } from "..";
 
 import * as S from "./modal-styles";
 
@@ -45,6 +46,7 @@ const CustomModal = () => {
             <InputText name="Nome do lote" id="name"/>
             <InputTime showExpectedTime/>
           </S.BoxForm>
+          <Select />
         </Modal>
       )}
     </S.Container>

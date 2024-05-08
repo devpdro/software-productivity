@@ -18,6 +18,7 @@ export const MainMenu = styled.div`
   display: flex;
   justify-content: flex-end;
   padding: 0.75rem 0.25rem;
+  
 `;
 
 export const ContainerItem = styled.div`
@@ -43,9 +44,9 @@ export const MenuItem = styled.li<{ margin?: boolean }>`
   align-items: center;
   justify-content: flex-start;
   transition: all 0.3s ease;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 0.75rem;
-  padding: 0.375rem 1rem 0.375rem 0.45rem;
+  padding: 0.375rem 1rem 0.375rem 0.750rem;
   gap: 0.875rem;
   &:hover {
     background-color: #dcebfe;

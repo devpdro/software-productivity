@@ -1,6 +1,6 @@
 import { Sidebar, Wrapper } from "../components/Common";
 
-function BatchDashboard() {
+function Dashboard() {
   return (
     <main style={{ display: "flex" }}>
       <Sidebar />
@@ -9,4 +9,4 @@ function BatchDashboard() {
   );
 }
 
-export default BatchDashboard;
+export default Dashboard;
